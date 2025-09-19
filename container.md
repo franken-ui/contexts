@@ -1,0 +1,33 @@
+## Container
+
+Add the `.uk-container` class to a block element to give it a max-width and wrap the main content of your website. The element will be centered and have padding on the sides, that adapts automatically for large screens.
+
+Note: The padding of nested containers will be removed to avoid unnecessary spacing.
+
+```html
+<div class="uk-container"></div>
+```
+
+## Size modifiers
+
+Add one of the following classes to the container to apply a different max-width.
+
+| Class                  | Description                                                                                                    |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `.uk-container-xs`     | Add this class for a xsmall container.                                                                         |
+| `.uk-container-sm`     | Add this class for a small container.                                                                          |
+| `.uk-container-lg`     | Add this class for a large container.                                                                          |
+| `.uk-container-xl`     | Add this class for a xlarge container.                                                                         |
+| `.uk-container-expand` | Add this class, if you do not want to limit the container width but still want the dynamic horizontal padding. |
+
+```html
+<div class="uk-container uk-container-xs"></div>
+
+<div class="uk-container uk-container-sm"></div>
+
+<div class="uk-container uk-container-lg"></div>
+
+<div class="uk-container uk-container-xl"></div>
+
+<div class="uk-container uk-container-expand"></div>
+```
